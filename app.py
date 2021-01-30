@@ -1,5 +1,7 @@
 from flask import Flask, jsonify
 
+app = flask.Flask(__name__)
+
 songs = [
     {
         "name": "Today Feels Like Everyday",
@@ -669,7 +671,7 @@ songs = [
     }
 ]
 
-app = flask.Flask(__name__)
+
 
 
 @app.route('/', methods=['GET'])
