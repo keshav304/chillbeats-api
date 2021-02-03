@@ -1,7 +1,9 @@
 # Songs-API 🎵
 
+deployed on heroku https://chillbeats.herokuapp.com/
+
 # GET /song
-Returns a list of all the  songs.
+Returns a list of all the  songs 
 
 Example Response:
 ```
